@@ -16,10 +16,10 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "Session~70un2Hpy", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~EiSpgPWX", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "Kɢᴛᴇᴄʜ;KᴇʀᴍLɪᴛᴇ⚡️", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237656520674",
+   BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
+   SUDO: process.env.SUDO || "237653065230",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
@@ -27,7 +27,7 @@ module.exports = {
    BRANCH: "master",
    AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "KᴇʀᴍLɪᴛᴇ⚡️",
+   PACKNAME: process.env.PACKNAME || "CONSPI⚡️",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
    GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
    RMBG_KEY: process.env.RMBG_KEY || "",
