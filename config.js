@@ -7,7 +7,7 @@ const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
    // Boolean Values (converted from Strings)
    LOGS: toBool(process.env.LOGS) || false,
-   ANTILINK: toBool(process.env.ANTI_LINK) || false,
+   ANTILINK: toBool(process.env.ANTI_LINK) || true,
    HEROKU: toBool(process.env.HEROKU) || false,
    AUTO_READ: toBool(process.env.AUTO_READ) || false,
    AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
@@ -16,7 +16,7 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~h7aRqVjH", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "237694028912",
@@ -29,7 +29,7 @@ module.exports = {
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
    PACKNAME: process.env.PACKNAME || "CONSPI⚡️",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
-   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
+   GOODBYE_MSG: process.env.GOODBYE_MSG || "À plus @user bye to @gname",
    RMBG_KEY: process.env.RMBG_KEY || "",
    WORK_TYPE: process.env.WORK_TYPE || "private",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
