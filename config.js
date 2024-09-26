@@ -16,16 +16,16 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "Session~h7aRqVjH", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~h69SL6Lk", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237694028912",
+   SUDO: process.env.SUDO || "237653065230",
    PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
-   AUTHOR: process.env.AUTHOR || "Kᴇʀᴍ-ᴍᴅ",
+   AUTHOR: process.env.AUTHOR || "LAURIAN🌟",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
    PACKNAME: process.env.PACKNAME || "CONSPI⚡️",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
