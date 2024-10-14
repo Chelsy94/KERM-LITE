@@ -13,14 +13,14 @@ module.exports = {
    AUTO_STATUS_READ: toBool(process.env.AUTO_STATUS_READ) || true,
    DELETED_LOG: toBool(process.env.DELETED_LOG) || true,
    STATUS_SAVER: toBool(process.env.STATUS_SAVER) || false,
-   AUTO_REACT: toBool(process.env.AUTO_REACT) || false,
+   AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
    SESSION_ID: process.env.SESSION_ID || "Session~h69SL6Lk", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "237653065230",
-   PRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
+   PRESENCE: process.env.PRESENCE || "recording", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
