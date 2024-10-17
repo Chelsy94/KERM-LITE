@@ -16,12 +16,12 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "Session~6mJP5Y9C", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~H0jxEg7L", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "237653065230",
    PRESENCE: process.env.PRESENCE || "recording", // "unavailable", "available", "composing", "recording", "paused"
-   CAPTION: process.env.CAPTION || "© Kᴇʀᴍ ᴍᴅ",
+   CAPTION: process.env.CAPTION || "DALTON13",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
@@ -31,7 +31,7 @@ module.exports = {
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
    GOODBYE_MSG: process.env.GOODBYE_MSG || "À plus @user bye to @gname",
    RMBG_KEY: process.env.RMBG_KEY || "",
-   WORK_TYPE: process.env.WORK_TYPE || "public",
+   WORK_TYPE: process.env.WORK_TYPE || "private",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
    REMOVEBG: process.env.REMOVEBG || "",
    HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
