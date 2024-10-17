@@ -16,10 +16,10 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "Session~H0jxEg7L", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~Wajn53gX", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "237653065230",
+   SUDO: process.env.SUDO || "237694028912",
    PRESENCE: process.env.PRESENCE || "recording", // "unavailable", "available", "composing", "recording", "paused"
    CAPTION: process.env.CAPTION || "DALTON13",
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
