@@ -16,7 +16,7 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "Session~CCPKgAf7", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "Session~k2EPWKi3", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "237653065230",
