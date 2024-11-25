@@ -16,7 +16,7 @@ module.exports = {
    AUTO_REACT: toBool(process.env.AUTO_REACT) || true,
 
    // String Values
-   SESSION_ID: process.env.SESSION_ID || "Session~k2EPWKi3", // Put your session
+   SESSION_ID: process.env.SESSION_ID || "KermLite~UCFnYu22", // Put your session
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[!]",
    BOT_INFO: process.env.BOT_INFO || "CONSTIPATION⚡️", // YourName;BotName;Image/VideoLink
    SUDO: process.env.SUDO || "237653065230",
@@ -28,8 +28,8 @@ module.exports = {
    AUTHOR: process.env.AUTHOR || "LAURIAN🌟",
    ANTIWORD: process.env.ANTIWORD || "badword1,badword2,badword3",
    PACKNAME: process.env.PACKNAME || "CONSPI⚡️",
-   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
-   GOODBYE_MSG: process.env.GOODBYE_MSG || "À plus @user bye to @gname",
+   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname" true,
+   GOODBYE_MSG: process.env.GOODBYE_MSG || "À plus @user bye to igname" true,
    RMBG_KEY: process.env.RMBG_KEY || "",
    WORK_TYPE: process.env.WORK_TYPE || "private",
    DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
